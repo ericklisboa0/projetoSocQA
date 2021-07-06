@@ -31,7 +31,7 @@ public class BuscaSteps {
 
 	@Then("verifica se a busca foi sem resultados {string}")
 	public void verifica_se_a_busca_foi_sem_resultados(String mensagem) {
-		Assert.assertEquals(mensagem + "a", driver.verificarTexto());
+		Assert.assertEquals(mensagem , driver.verificarTexto());
 	}
 	
 	//segundo cenario de busca
@@ -43,6 +43,6 @@ public class BuscaSteps {
 	
 	@Then("verifica se a busca foi concluida")
 	public void verifica_se_a_busca_foi_concluida() {
-		Assert.assertEquals("a" , driver.verificarTexto());
+		Assert.assertEquals(null , driver.verificarTexto());
 	}
 }

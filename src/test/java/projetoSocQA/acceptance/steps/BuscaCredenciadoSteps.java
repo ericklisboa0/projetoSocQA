@@ -28,8 +28,8 @@ public class BuscaCredenciadoSteps {
 		driver.inicializar(url);
 	}
 
-	@When("faz uma busca de credenciado sem resultado de {string}")
-	public void faz_uma_busca_de_credenciado_sem_resultado_de(String pesquisa) {
+	@When("faz uma busca de letras, numero, caracteres e em branco em credenciado e sem resultado de {string}")
+	public void faz_uma_busca_de_letras_numero_caracteres_e_em_branco_em_credenciado_e_sem_resultado_de(String pesquisa) {
 		driver.acessarCredenciados(pesquisa);
 		driver.enviarPesquisa();
 	}

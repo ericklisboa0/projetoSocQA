@@ -1,0 +1,384 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18255010300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abre o navegador e acessa o portal da soc \"https://www.soc.com.br/blog/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.soc.com.br/blog/\"",
+                  "offset": 42
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaSteps.abre_e_acessa(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-05T15:27:39.696Z",
+        "line": 7,
+        "name": "busca sem resultado",
+        "description": "",
+        "id": ":-projeto-qa;busca-sem-resultado",
+        "after": [
+          {
+            "result": {
+              "duration": 2959738100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "projetoSocQA.acceptance.steps.BuscaSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3707723900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "faz uma busca sem resultado de \"projeto QA Analyst\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"projeto QA Analyst\"",
+                  "offset": 31
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaSteps.faz_uma_busca_sem_resultado_de(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301761500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verifica se a busca foi sem resultados \"Nenhum resultado encontrado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nenhum resultado encontrado\"",
+                  "offset": 39
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaSteps.verifica_se_a_busca_foi_sem_resultados(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@busca"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12512012100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abre o navegador e acessa o portal da soc \"https://www.soc.com.br/blog/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.soc.com.br/blog/\"",
+                  "offset": 42
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaSteps.abre_e_acessa(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-05T15:28:05.628Z",
+        "line": 12,
+        "name": "busca sem resultado",
+        "description": "",
+        "id": ":-projeto-qa;busca-sem-resultado",
+        "after": [
+          {
+            "result": {
+              "duration": 3040261900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "projetoSocQA.acceptance.steps.BuscaSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3756862000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "faz uma busca bem sucedida de \"Farmacia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Farmacia\"",
+                  "offset": 30
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaSteps.faz_uma_busca_bem_sucedida_de(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38002700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verifica se a busca foi concluida",
+            "match": {
+              "location": "projetoSocQA.acceptance.steps.BuscaSteps.verifica_se_a_busca_foi_concluida()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@busca"
+          }
+        ]
+      }
+    ],
+    "name": ": Projeto QA",
+    "description": "",
+    "id": ":-projeto-qa",
+    "keyword": "Feature",
+    "uri": "classpath:features/Busca.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24319936800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Acessa pagina inicial da soc \"https://www.soc.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.soc.com.br/\"",
+                  "offset": 29
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaCredenciadoSteps.acessa_pagina_inicial_da_soc(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-05T15:28:25.043Z",
+        "line": 7,
+        "name": "busca sem sucesso a um credenciado",
+        "description": "",
+        "id": ":-projeto-qa;busca-sem-sucesso-a-um-credenciado",
+        "after": [
+          {
+            "result": {
+              "duration": 4350975100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "projetoSocQA.acceptance.steps.BuscaCredenciadoSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36391029800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "faz uma busca de credenciado sem resultado de \"jx15sdaz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jx15sdaz\"",
+                  "offset": 46
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaCredenciadoSteps.faz_uma_busca_de_credenciado_sem_resultado_de(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 372998900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verifica se a busca de credenciado foi sem resultados \"Nenhum resultado encontrado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nenhum resultado encontrado\"",
+                  "offset": 54
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaCredenciadoSteps.verifica_se_a_busca_de_credenciado_foi_sem_resultados(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BuscaCred"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10621133500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Acessa pagina inicial da soc \"https://www.soc.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.soc.com.br/\"",
+                  "offset": 29
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaCredenciadoSteps.acessa_pagina_inicial_da_soc(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-05T15:29:30.546Z",
+        "line": 12,
+        "name": "busca de sucesso a um credenciado",
+        "description": "",
+        "id": ":-projeto-qa;busca-de-sucesso-a-um-credenciado",
+        "after": [
+          {
+            "result": {
+              "duration": 5743525800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "projetoSocQA.acceptance.steps.BuscaCredenciadoSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5480629000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "faz uma busca bem sucedida de credenciado \"Santos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Santos\"",
+                  "offset": 42
+                }
+              ],
+              "location": "projetoSocQA.acceptance.steps.BuscaCredenciadoSteps.faz_uma_busca_bem_sucedida_de_credenciado(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2810211200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "acessa o primeiro perfil",
+            "match": {
+              "location": "projetoSocQA.acceptance.steps.BuscaCredenciadoSteps.acessa_o_primeiro_perfil()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153000700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verifica se a busca de credenciado foi concluida",
+            "match": {
+              "location": "projetoSocQA.acceptance.steps.BuscaCredenciadoSteps.verifica_se_a_busca_de_credenciado_foi_concluida()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BuscaCred"
+          }
+        ]
+      }
+    ],
+    "name": ": Projeto QA",
+    "description": "",
+    "id": ":-projeto-qa",
+    "keyword": "Feature",
+    "uri": "classpath:features/BuscaCredenciado.feature",
+    "tags": []
+  }
+]
